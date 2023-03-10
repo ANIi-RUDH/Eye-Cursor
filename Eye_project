@@ -1,3 +1,4 @@
 import mediapipe as mp
 import pyautogui
 import cv2
+# To close the camera press "CTRL + F2"
