@@ -7,3 +7,4 @@ face_mesh = mp.solutions.face_mesh.FaceMesh(refine_landmarks=True)
 screen_w, screen_h = pyautogui.size()
 while True:
     _, frame = cam.read()
+    frame = cv2.flip(frame, 1)
