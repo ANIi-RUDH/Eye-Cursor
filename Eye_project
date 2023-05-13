@@ -17,3 +17,4 @@ while True:
          for id, landmark in enumerate(landmarks[474:478]):
              x = int(landmark.x * frame_w)
              y = int(landmark.y * frame_h)
+             cv2.circle(frame, (x, y), 3, (0, 255, 0))
