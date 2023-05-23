@@ -20,4 +20,5 @@ while True:
              cv2.circle(frame, (x, y), 3, (0, 255, 0))
              if id == 1:
                  screen_x = screen_w / frame_w * x
+                 screen_y = screen_h / frame_h * y
                  
