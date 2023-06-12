@@ -25,3 +25,4 @@ while True:
          left = [landmarks[145], landmarks[159]]
          for landmark in left:
              x = int(landmark.x * frame_w)
+             y = int(landmark.y * frame_h)
