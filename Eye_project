@@ -24,3 +24,4 @@ while True:
                  pyautogui.moveTo(screen_x, screen_y)
          left = [landmarks[145], landmarks[159]]
          for landmark in left:
+             x = int(landmark.x * frame_w)
